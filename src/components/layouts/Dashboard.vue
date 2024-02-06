@@ -7,7 +7,7 @@
         <h3 class="opacity-50 font-semibold tracking-wider mb-6 uppercase p-2 text-xs">Menu</h3>
         <div class="space-y-6">
 
-          <MenuItem :iconComponent="HomeIcon" itemName="Discover" />
+          <MenuItem :iconComponent="HomeIcon" itemName="Home" />
           <MenuItem :iconComponent="Trading" itemName="Estatística" />
           
 
@@ -19,13 +19,10 @@
 
       <header>
         <inputSearch />
-        <!--<Dropdown>
-          <Avatar />
-        </Dropdown>
-        <Notification />-->
+        
       </header>
       <h1 class="font-bold text-2xl mt-6 mb-4">Estatística</h1>
-        <div class="w-95 h-60 flex items-center justify-center">
+        <div class="w-100 h-60 flex items-center justify-center">
           <ChartComponent/>
         </div>
     </div>
